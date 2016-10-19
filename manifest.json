@@ -6,7 +6,7 @@
     "permissions":["tabs"],
     "content_scripts":[{
 			"run_at": "document_end",			
-	    "matches":["*://github.com/*"],
+	    "matches":["*://opt-technologies.esa.io/*"],
 	    "css":["mermaid.forest.css"],
 	    "js":["mermaid.js","init.js"]
 		}]

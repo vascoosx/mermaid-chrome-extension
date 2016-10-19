@@ -2,7 +2,15 @@
 
 ## What is it?
 
-This Chrome extension autodetects GitHub Flavored Markdown code blocks with the mermaid language (http://knsv.github.io/mermaid/), and automatically renders the resulting chart.
+In your esa.io post, surround mermaid code as below: 
+```
+<div class="mermaid">
+graphLR
+A-->B
+</div>
+```
+
+a graph will be rendered.
 
 ## Installation
 
@@ -12,12 +20,6 @@ This Chrome extension autodetects GitHub Flavored Markdown code blocks with the 
 - Load unpacked extension
 * Select the repo folder
 
-```mermaid
-sequenceDiagram
-  A->>B: Hello
-	Note right of B: B stares at A awkwardly for a moment
-	B-->>A: Oh, hello!
-```
 
 ## Change the theme
 Just edit `manifest.json`, change the `css` value to one of these:
